@@ -14,3 +14,7 @@ Very basic installer :
 You then have to copy your BIOS or EC files and edit the corresponding nsh files in each directory
 
 
+This script is based on Eric Kranich work 
+http://s472165864.onlinehome.fr/anyware/bios/EFI/BOOT/startup.nsh
+
+
