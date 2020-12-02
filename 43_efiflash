@@ -1,0 +1,10 @@
+#!/bin/sh
+echo " adding EFIFlash Entry"
+cat <<EOF
+menuentry "EFI FLASH" {
+        insmod part_gpt
+        insmod chain
+        set root='(hd0,gpt1)'
+        chainloader /efiflash/efiflash.efi
+}
+EOF
